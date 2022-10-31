@@ -4,15 +4,10 @@ const elts = {
 };
 
 const texts = [
-    "Hey!",
-    "I'm",
-    "Erika Salvador",
-    "and",
-    "I'm",
-    "a",
-    "front-end",
-    "developer!",
-    
+    "a front-end developer",
+    "a programmer",
+    "a Women in STEM Club Founder",
+    "the In A.W.E Founder"
 ];
 
 const morphTime = 1;
