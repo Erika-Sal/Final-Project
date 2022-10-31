@@ -100,3 +100,8 @@ h1{
 .logoo{
     text-decoration: none;
 }
+
+.logo:hover{
+    background-color:white;
+    color:black;
+}
