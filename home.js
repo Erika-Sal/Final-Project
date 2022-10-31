@@ -6,7 +6,7 @@ const elts = {
 const texts = [
     "a front-end developer",
     "a programmer",
-    "a Women in STEM Club Founder",
+    "a WI-STEM Club Founder",
     "an In A.W.E Founder"
 ];
 
