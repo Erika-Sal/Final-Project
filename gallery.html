@@ -6,16 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./gallery.css">
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>Photo Gallery</title>
 </head>
 <body>
-    <div class="navBar">
-        <h1 class="logo">ES-Code</h1>
-        <a href="./about.html" class="about">About Me</a>
-        <a class="gallery" href="./gallery.html">Photo Gallery</a>
-    </div>
+  <input type="checkbox" id="active">
+  <label for="active" class="menu-btn"><span></span></label>
+  <label for="active" class="close"></label>
+  <div class="wrapper">
+    <ul>
+      <li><a onclick="transitionToPage('./index.html')">Home</a></li>
+      <li><a onclick="transitionToPage('./about.html')">About</a></li>
+      <li><a onclick="transitionToPage('./gallery.html')">Gallery</a></li>
+     
+
+    </ul>
+  </div>
+
+  <div class="content">
     <br>
-    <h1>Camera Roll</h1>
+    <h1>Camera Roll</h1> 
     <br>
     <div class="flexbox-container">
         <div class = "flexbox-items">
@@ -263,7 +272,7 @@
         <input type="password" id="password" placeholder="Enter Your Password Here">
         <input type="button" onclick="checkPassword()" value="SUBMIT">
       </form>
-      $ git config --global user.name "Erika-Sal"
-$ git config --global user.email erikasal832@gmail.com
+   </div>
+    
 </body>
 </html>
