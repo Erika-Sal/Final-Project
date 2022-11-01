@@ -9,11 +9,20 @@
     <title>Photo Gallery</title>
 </head>
 <body>
-    <div class="navBar">
-      <a href="./index.html" class="logoo"><h1 class="logo">ES-Code</h1></a>
-        <a href="./about.html" class="about">About Me</a>
-        <a class="gallery" href="./gallery.html">Photo Gallery</a>
-    </div>
+  <input type="checkbox" id="active">
+  <label for="active" class="menu-btn"><span></span></label>
+  <label for="active" class="close"></label>
+  <div class="wrapper">
+    <ul>
+      <li><a onclick="transitionToPage('./index.html')">Home</a></li>
+      <li><a onclick="transitionToPage('./about.html')">About</a></li>
+      <li><a onclick="transitionToPage('./gallery.html')">Gallery</a></li>
+     
+
+    </ul>
+  </div>
+
+  <div class="content">
     <br>
     <h1>Camera Roll</h1> 
     <br>
@@ -263,5 +272,7 @@
         <input type="password" id="password" placeholder="Enter Your Password Here">
         <input type="button" onclick="checkPassword()" value="SUBMIT">
       </form>
+   </div>
+    
 </body>
 </html>

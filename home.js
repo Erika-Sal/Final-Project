@@ -1,3 +1,5 @@
+
+
 const elts = {
     text1: document.getElementById("text1"),
     text2: document.getElementById("text2")
@@ -79,3 +81,14 @@ function animate() {
 }
 
 animate();
+
+window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() { 
+        window.location.href = href
+    }, 500)
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
